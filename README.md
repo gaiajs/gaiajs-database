@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/gaiajs/gaiajs-database.svg)](https://gemnasium.com/gaiajs/gaiajs-database)
+[![NPM version](https://badge.fury.io/js/gaiajs-database.svg)](http://badge.fury.io/js/gaiajs-database) 
  > Database handler for [GAIAJS](https://github.com/gaiajs/gaiajs) Apps
 
 This module configure all persistences and repositories of gaiajs's apps.
