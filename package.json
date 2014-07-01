@@ -1,0 +1,27 @@
+{
+  "name": "gaiajs-database",
+  "version": "1.0.0",
+  "description": "Database handler for gaiajs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gaiajs/gaiajs-database.git"
+  },
+  "keywords": [
+    "gaiajs",
+    "database",
+    "orm",
+    "node"
+  ],
+  "author": "Touzet David <dtouzet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaiajs/gaiajs-database/issues"
+  },
+  "homepage": "https://github.com/gaiajs/gaiajs-database",
+  "dependencies": {
+    "glob": "^4.0.3",
+    "string": "^1.9.0",
+    "thunkify": "^2.1.2"
+  }
+}
