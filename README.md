@@ -1,8 +1,17 @@
 [![Dependency Status](https://gemnasium.com/gaiajs/gaiajs-database.svg)](https://gemnasium.com/gaiajs/gaiajs-database)
-[![NPM version](https://badge.fury.io/js/gaiajs-database.svg)](http://badge.fury.io/js/gaiajs-database) 
+[![NPM version](https://badge.fury.io/js/gaiajs-database.svg)](http://badge.fury.io/js/gaiajs-database)
  > Database handler for [GAIAJS](https://github.com/gaiajs/gaiajs) Apps
 
 This module configure all persistences and repositories of gaiajs's apps.
+
+## CONFIGURATION OF PERSISTENCE
+All driver have:
+ * `name`: name of persistence - Optional when there is one persistence
+ * `driver`: name or absolute path of driver
+ * `debug`: set driver in debug mode - Optional (default: false)
+ * `onRun`: generator function to call when all repositories are loaded and configurated.
+ Can be wrapped by injector. - Optional
+
 
 ## LIST OF DRIVERS
 <table>
@@ -12,6 +21,7 @@ This module configure all persistences and repositories of gaiajs's apps.
       <th>Package name</th>
       <th>Based on package</th>
       <th>Maintainer</th>
+      <th>Build status</th>
     </tr>
   </thead>
   <tbody>
@@ -20,6 +30,7 @@ This module configure all persistences and repositories of gaiajs's apps.
       <td><a href="https://github.com/gaiajs/gaiajs-driver-mongoose">gaiajs-driver-mongoose</a></td>
       <td><a href="https://github.com/learnboost/mongoose">Mongoose</a></td>
       <td><a href="https://github.com/eyolas">David Touzet</a></td>
+      <td>[![Build Status](https://travis-ci.org/gaiajs/gaiajs-driver-mongoose.svg?branch=master)](https://travis-ci.org/gaiajs/gaiajs-driver-mongoose)</td>
     </tr>
   </tbody>
 </table>
