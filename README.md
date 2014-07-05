@@ -30,7 +30,7 @@ All driver have:
       <td><a href="https://github.com/gaiajs/gaiajs-driver-mongoose">gaiajs-driver-mongoose</a></td>
       <td><a href="https://github.com/learnboost/mongoose">Mongoose</a></td>
       <td><a href="https://github.com/eyolas">David Touzet</a></td>
-      <td>[![Build Status](https://travis-ci.org/gaiajs/gaiajs-driver-mongoose.svg?branch=master)](https://travis-ci.org/gaiajs/gaiajs-driver-mongoose)</td>
+      <td><img src="https://travis-ci.org/gaiajs/gaiajs-driver-mongoose.svg?branch=master" alt="Build Status" /></td>
     </tr>
   </tbody>
 </table>
