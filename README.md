@@ -9,8 +9,26 @@ All driver have:
  * `name`: name of persistence - Optional when there is one persistence
  * `driver`: name or absolute path of driver
  * `debug`: set driver in debug mode - Optional (default: false)
+ * `default`: set this persistence by default - Optional (default: false)
+ * `dir`: path of directory of models for this persistence (relative to application model directory)
  * `onRun`: generator function to call when all repositories are loaded and configurated.
  Can be wrapped by injector. - Optional
+
+## GAIAJS Injector
+# Persistence
+Add all persistence in injector. Use name of persistence.
+Default persistence is inject with $persitence.
+If there is no persistence by default, the first persistence is the default.
+
+inject name :  camel case name + persistence (ex: name is mysql, inject $mysqlPersistence)
+
+# Repository
+Create all repositories for models find.
+
+inject name : camel case relative path + Repository
+ex:
+ - if path is user.js => inject $userRepository
+ - if path is rest/user.js => inject $restUserRepository
 
 
 ## LIST OF DRIVERS
